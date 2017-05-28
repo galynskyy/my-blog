@@ -1,0 +1,142 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	min-width: 1280px;
+}
+
+.header {
+	min-height: 60px;
+	background: #454f5f;
+	margin: 0 0 20px;
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	max-width: 960px;
+	min-height: 60px;
+	margin: 0 auto;
+}
+
+.header-brand {
+	display: flex;
+}
+
+.header__title {
+	font: bold 28px "Roboto-Regular", sans-serif;
+	color: #fff;
+}
+
+.navigation {
+	display: flex;
+}
+
+.navigation__list {
+	display: flex;
+	margin: 0 0 20px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.navigation__item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 30px;
+	min-width: 140px;
+	cursor: pointer;
+}
+
+.navigation__item:hover{
+	border-bottom: 4px solid #ff9114;
+}
+
+.navigation__link {
+	display: block;
+	font: 20px "Roboto-Regular", sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+.posts {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.post {
+	display: flex;
+	flex-direction: column;
+	min-height: 30px;
+	min-width: 960px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+	margin: 0 0 20px;
+}
+
+.post:last-child {
+	margin: 0;
+}
+
+.post-wrapper {
+	min-width: 860px;
+	margin: 0 auto;
+}
+
+.post__title {
+	font: bold 36px "Roboto-Regular", sans-serif;
+	color: #000;
+}
+
+.post__text {
+	font: 24px "Roboto-Regular", sans-serif;
+	color: #000;
+	text-align: justify;
+	word-wrap: break-word;
+}
+
+.post__icon {
+	max-height: 24px;
+	max-width: 24px;
+	margin: 0 10px 0 0;
+}
+
+.post__info {
+	font: 18px "Roboto-Regular", sans-serif;
+	color: #949494;
+}
+
+.post-list__item {
+	display: inline-flex;
+	align-items: center;
+	min-width: 140px;
+	margin: 0 40px 0 0;
+}
+
+.post-list__item:last-child {
+	margin: 0;
+}
+
+.post-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.post-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
